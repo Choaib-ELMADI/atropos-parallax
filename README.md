@@ -2,4 +2,4 @@
 <br>
 <b>Collect Images from <a href='https://designstripe.com/'>DesignStripe</a></b>
 <br>
-<b>Install Atropos using the command <i style="text-decoration: underline;">npm i atropos</i> <a href='https://atroposjs.com/'>Atropos.Js</a></b>
+<b>Install Atropos using the command *<i>npm i atropos</i>* <a href='https://atroposjs.com/'>Atropos.Js</a></b>

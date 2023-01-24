@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./atropos/atropos.min.css" />
+</head>
+<body>
+
+    <div class="main-container atropos my-atropos">
+        <div class="atropos-scale">
+          <div class="atropos-rotate">
+            <div class="main-content atropos-inner">
+                <img src="./assets/slide__2.png" alt="slide__1">
+                <form>
+                    <input 
+                        placeholder="example@gmail.com" 
+                        data-atropos-offset="5" 
+                        type="email" 
+                        required 
+                    >
+                    <button 
+                        data-atropos-offset="-5"
+                    >
+                        Get Started
+                    </button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="./atropos/atropos.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

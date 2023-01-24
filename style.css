@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #212236;
+    font-family: Impact;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8c8c8d;
+}
+
+.my-atropos {
+    width: 420px;
+    height: 280px;
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-content form {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.main-content form input {
+    border: 1px solid #8c8c8d;
+    outline: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+.main-content form button {
+    width: max-content;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: orangered;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: .2s;
+}
